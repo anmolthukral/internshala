@@ -1,0 +1,57 @@
+sign up user
+upload resume
+signup employee
+login user
+login employee
+homepage
+search functionality
+add internship
+edit profile
+apply for internship
+employee end dashboard
+session management
+
+
+database model
+
+employer:
+name
+company
+e_id
+email
+password
+
+
+user
+name
+college
+skills
+u_id
+email
+password
+resume
+
+
+
+internship
+internship_id
+title
+description
+requirments
+tags
+company
+
+
+
+applciations
+u_id
+internship_id
+why
+resume
+
+
+transactions
+from_id
+on_id
+action
+transaction_id

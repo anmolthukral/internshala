@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.head-live{
+    color: blue;
+}
+.fixed{
+    z-index:3;
+    opacity: 1;
+    filter:alpha(opacity=10);   
+  margin:10px;
+  position: fixed;
+  padding-top: 10px;
+  top:30px; 
+  left:0;
+  width: 100%; 
+  background: white;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+.btn-blue{
+width: 100px;
+color: blue;
+background: red;
+font-size: 60px;
+}
+.internship-name{
+  color:blue;
+}
+.btn-submit{
+  font-size: 15px;
+  width: 100px;
+  background: red;
+}
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
